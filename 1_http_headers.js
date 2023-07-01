@@ -45,3 +45,6 @@ server.listen(5000);
 
 // conventional setup (in node js) : we dont provide any information of the type of text that we are returning in the response
 // https://developer.mozilla.org/en-US/docs/Web/HTTP/Status - Status codes
+// express is built on HTTP module in node js but not an official part of node js
+// which means it should be installed as an external dependency
+// npm install express 
